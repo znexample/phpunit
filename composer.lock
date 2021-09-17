@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "91f85ca1aa8966f46339062a00d37f3f",
+    "content-hash": "f16b4f4921e9449ba8ec6aeb368d9804",
     "packages": [
         {
             "name": "codeception/verify",
@@ -7218,17 +7218,59 @@
             "time": "2021-07-29T06:20:01+00:00"
         },
         {
+            "name": "znbundle/log",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/znbundle/log.git",
+                "reference": "87a70478ee076b85657942db09e98c251551dabe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/znbundle/log/zipball/87a70478ee076b85657942db09e98c251551dabe",
+                "reference": "87a70478ee076b85657942db09e98c251551dabe",
+                "shasum": ""
+            },
+            "require": {
+                "monolog/monolog": "~1.22 || ~2.0",
+                "psr/log": "~1.0"
+            },
+            "default-branch": true,
+            "type": "extension",
+            "autoload": {
+                "psr-4": {
+                    "ZnBundle\\Log\\": "src",
+                    "ZnBundle\\Log\\Tests\\": "tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yamshikov Vitaliy",
+                    "email": "theyamshikov@yandex.ru"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/znbundle/log/issues",
+                "source": "https://github.com/znbundle/log/tree/main"
+            },
+            "time": "2021-09-13T14:05:25+00:00"
+        },
+        {
             "name": "zncore/base",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zncore/base.git",
-                "reference": "9367162664838c6c73d93fe6425961a093090715"
+                "reference": "63d0fdb3bfe18f296063c77dc720a33497a1ac9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zncore/base/zipball/9367162664838c6c73d93fe6425961a093090715",
-                "reference": "9367162664838c6c73d93fe6425961a093090715",
+                "url": "https://api.github.com/repos/zncore/base/zipball/63d0fdb3bfe18f296063c77dc720a33497a1ac9c",
+                "reference": "63d0fdb3bfe18f296063c77dc720a33497a1ac9c",
                 "shasum": ""
             },
             "require": {
@@ -7264,7 +7306,7 @@
                 "issues": "https://github.com/zncore/base/issues",
                 "source": "https://github.com/zncore/base/tree/master"
             },
-            "time": "2021-09-16T12:35:46+00:00"
+            "time": "2021-09-17T06:54:22+00:00"
         },
         {
             "name": "zncore/contract",
@@ -7387,6 +7429,88 @@
             "time": "2021-06-26T18:22:13+00:00"
         },
         {
+            "name": "znlib/rest",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/znlib/rest.git",
+                "reference": "faa8da6b26ebc0ae58a7e4f0d8b2583f1505ec03"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/znlib/rest/zipball/faa8da6b26ebc0ae58a7e4f0d8b2583f1505ec03",
+                "reference": "faa8da6b26ebc0ae58a7e4f0d8b2583f1505ec03",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": ">5.3",
+                "symfony/serializer": "4.*|5.*"
+            },
+            "default-branch": true,
+            "type": "extension",
+            "autoload": {
+                "psr-4": {
+                    "ZnLib\\Rest\\": "src",
+                    "ZnLib\\Rest\\Tests\\": "tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yamshikov Vitaliy",
+                    "email": "theyamshikov@yandex.ru"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/znlib/rest/issues",
+                "source": "https://github.com/znlib/rest/tree/master"
+            },
+            "time": "2021-09-13T08:24:17+00:00"
+        },
+        {
+            "name": "znlib/rpc",
+            "version": "v0.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/znlib/rpc.git",
+                "reference": "5c85ed5aa1589fa903952919740b2a24a5228733"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/znlib/rpc/zipball/5c85ed5aa1589fa903952919740b2a24a5228733",
+                "reference": "5c85ed5aa1589fa903952919740b2a24a5228733",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": ">5.3"
+            },
+            "type": "extension",
+            "autoload": {
+                "psr-4": {
+                    "ZnLib\\Rpc\\": "src",
+                    "ZnLib\\Rpc\\Tests\\": "tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yamshikov Vitaliy",
+                    "email": "theyamshikov@yandex.ru"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/znlib/rpc/issues",
+                "source": "https://github.com/znlib/rpc/tree/v0.0.2"
+            },
+            "time": "2021-01-12T04:44:09+00:00"
+        },
+        {
             "name": "znlib/web",
             "version": "dev-master",
             "source": {
@@ -7435,9 +7559,11 @@
         "zntool/test": 20,
         "znsandbox/sandbox": 20,
         "zntool/package": 20,
+        "znbundle/log": 20,
         "zncore/base": 20,
         "zncore/domain": 20,
         "znlib/web": 20,
+        "znlib/rest": 20,
         "znlib/console": 20
     },
     "prefer-stable": false,
