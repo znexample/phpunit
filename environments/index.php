@@ -37,11 +37,11 @@ $commonConfig = [
     'setExecutable' => [
         'bin'
     ],
-    'random' => [
+    /*'random' => [
         '.env.local',
         '.env.test',
     ],
-    /*'setCookieValidationKey' => [
+    'setCookieValidationKey' => [
         '.env.local',
     ],*/
 ];
