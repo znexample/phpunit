@@ -1,22 +1,39 @@
 
-###> symfony/framework-bundle ###
-/.env.local
-/.env.local.php
-/.env.*.local
-/composer.lock
-/public/bundles/
-/var/
-/vendor/
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+/.env.*
+#.env
+
+# windows thumbnail cache
+Thumbs.db
+
+# PHP Storm IDE
 /.idea/*
-!/.idea/codeStyles/
-###< symfony/framework-bundle ###
 
-###> symfony/phpunit-bridge ###
-.phpunit
-.phpunit.result.cache
+# composer vendor dir
+/vendor
+
+# composer itself is not needed
+composer.phar
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
 /phpunit.xml
-###< symfony/phpunit-bridge ###
 
-###> symfony/web-server-bundle ###
-/.web-server-pid
-###< symfony/web-server-bundle ###
+# vagrant runtime
+/.vagrant
+
+.dbeaver-data-sources.xml
+session/
+
+public/adminer/
